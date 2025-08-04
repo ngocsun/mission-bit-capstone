@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/favicon.png?v=1721187220484"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>AWN Home Page</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body class="resource-body">
+    <!-- navbar content -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/logo.png?v=1721245336769"
+          alt="AWN logo"
+          width="auto"
+          height="25px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link active" href="resources.html"
+            >Resources</a
+          >
+          <a class="nav-item nav-link" href="donate.html">Donate</a>
+          <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--jumbotron-->
+    <div
+      class="jumbotron jumbotron-fluid"
+      style="
+        background-image: url(https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/20372052-11F1-45BB-9A63-0BEE325093F6_1_201_a.jpeg?v=1720731995245);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <h1 class="display-4 text-white heading-text">Resources</h1>
+        <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+      </div>
+    </div>
+
+    <!--navigate -->
+    <div>
+      <ul class="resource-scroll-nav">
+        [ Navigate:
+        <li><a href="#food-resource">Food</a></li>
+        <li>/</li>
+        <li><a href="#volunteer-resource">Volunteering</a></li>
+        ]
+      </ul>
+      <hr class="resource-hr" />
+    </div>
+
+    <!--grid-->
+    <div class="container">
+      <h1 id="food-resource">Food Resources</h1>
+      <div class="row">
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/mg1.png?v=1721239699555"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">SF Marin Food Bank</h4>
+              <a
+                class="card-text text-left"
+                href="https://foodlocator.sfmfoodbank.org/?_gl=1*1waher5*_gcl_aw*R0NMLjE3MjE2Nzc1NzUuQ2p3S0NBandodmkwQmhBNEVpd0FYMjV1anh4d1hiWkxlNHRTQmNlbGJDalhaUGhOMmxKYWxSS2hNdkkxTGluM1M0ZjYwNVdNRFloallSb0N4RWtRQXZEX0J3RQ..*_gcl_au*MTA0MzQwMTE3Mi4xNzIwNzIwMTE3&_ga=2.143313013.1107915980.1721677575-361325548.1720720117&_gac=1.216608356.1721677575.CjwKCAjwhvi0BhA4EiwAX25ujxxwXbZLe4tSBcelbCjXZPhN2lJalRKhMvI1Lin3S4f605WMDYhjYRoCxEkQAvD_BwE"
+                target="_blank"
+                >Food Locator
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/igm1.png?v=1721240429559"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title">CalFresh Food Stamps</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.sfmfoodbank.org/apply-for-calfresh/"
+                target="_blank"
+                >Apply</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/igm1.png?v=1721240373551"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">CalFresh Restaurant Meals</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.sfhsa.org/services/food/calfresh/using-calfresh/calfresh-restaurant-meals-program"
+                target="_blank"
+                >Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--row 2-->
+      <div class="row">
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/829ca627-17aa-447d-817e-844765823c53/img13.png?v=1721156161950"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">
+                Get Groceries and Meals via DAS
+              </h4>
+              <a
+                class="card-text text-left"
+                href="https://www.sfhsa.org/services/disability-aging-services/groceries-meals"
+                target="_blank"
+                >Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/829ca627-17aa-447d-817e-844765823c53/img14.png?v=1721156292530"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">
+                Healthy Food Vouchers via EatSF
+              </h4>
+              <a
+                class="card-text text-left"
+                href="https://eatsfvoucher.org/"
+                target="_blank"
+                >Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/829ca627-17aa-447d-817e-844765823c53/mg15.png?v=1721160172915"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">Meals on Wheels (SF)</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.mowsf.org/"
+                target="_blank"
+                >Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--row 3-->
+      <div class="row">
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img15.png?v=1721161221543"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">Daily Free Meals via GLIDE</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.glide.org/programs/daily-free-meals/"
+                target="_blank"
+                >Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img16.png?v=1721161344611"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">The Food Pantry (SF)</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.thefoodpantry.org/get-food"
+                target="_blank"
+                >Get Food
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img%2015.png?v=1721236442763"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">Mission Food Hub</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.missionfoodhub.org/our-programs"
+                target="_blank"
+                >Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="resource-hr" />
+
+    <!--volunteer -->
+    <div class="container">
+      <h1 id="volunteer-resource" style="margin-top: 2%">
+        Volunteering Opportunities
+      </h1>
+
+      <div class="row">
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/mg1.png?v=1721239699555"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">SF Marin Food Bank</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.sfmfoodbank.org/volunteer/"
+                target="_blank"
+                >Volunteer Opportunties
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/829ca627-17aa-447d-817e-844765823c53/mg15.png?v=1721160172915"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">Meals on Wheels (SF)</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.mowsf.org/volunteer/"
+                target="_blank"
+                >Learn More about Volunteering
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img15.png?v=1721161221543"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">GLIDE</h4>
+              <a
+                class="card-text text-left"
+                href="https://sfglide.my.salesforce-sites.com/default/mainpage"
+                target="_blank"
+                >Volunteer Calender
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img16.png?v=1721161344611"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">The Food Pantry</h4>
+              <a
+                class="card-text text-left"
+                href="https://www.thefoodpantry.org/volunteer"
+                target="_blank"
+                >Learn More about Volunteering
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img%2015.png?v=1721236442763"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">Mission Food Hub</h4>
+              <a
+                class="card-text text-left"
+                href="https://app.initlive.com/web-admin/app/#/join-party?k=926a75hrd07o4g"
+                target="_blank"
+                >Sign up for Volunteering Shift
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-3">
+          <div class="card bg-dark text-white resource-card">
+            <img
+              class="card-img"
+              src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/img1.png?v=1721703195208"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-left">Catholic Charities SF</h4>
+              <a
+                class="card-text text-left"
+                href="https://catholiccharitiessf.org/volunteer-opportunities-sf/"
+                target="_blank"
+                >Register to Volunteer
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer style="padding-bottom: 2px" class="py-5">
+      <div class="container sticky-bottom">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="index.html"
+              ><img
+                src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/logo%3Alightgreen.png?v=1721248779710"
+                class="mt-5"
+                alt="AWN logo"
+            /></a>
+          </div>
+
+          <div class="col-md-3 mt-3">
+            <div class="secondary-color-footer">
+              <h2>Action for Wellness and Nutrition.</h2>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="my-2 primary-footer">Sitemap</h5>
+            <ul class="nav flex-column secondary-color-footer">
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0" href="resources.html">Resources</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0" href="donate.html">Donate</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0" href="aboutus.html">About Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="my-2 primary-footer">Learn More</h5>
+            <ul class="nav flex-column secondary-color-footer">
+              <li class="nav-item mb-2">
+                <a
+                  class="nav-link p-0"
+                  href="https://www.mealsonwheelsamerica.org/"
+                  >Meals on Wheels</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0" href="https://www.getcalfresh.org/"
+                  >CalFresh</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 justify-content-center">
+            <h5 class="my-2 primary-footer">Socials</h5>
+
+            <a
+              href="https://x.com/awnfoods"
+              class="btn btn-footer rounded-circle"
+              ><img
+                src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/logo1.png?v=1721326237223"
+                alt="X logo"
+            /></a>
+            <a
+              href="https://www.youtube.com/@awn-foods"
+              class="btn btn-footer rounded-circle"
+              ><img
+                src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/logo2.png?v=1721326360977"
+                alt="Youtube logo"
+            /></a>
+            <a
+              href="https://www.instagram.com/awnfoodwellness/"
+              class="btn btn-footer rounded-circle"
+              ><img
+                src="https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/logo3.png?v=1721326399540"
+                alt="Instagram logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Required JavaScript files for Bootstrap 4 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

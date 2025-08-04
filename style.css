@@ -1,0 +1,330 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #cee3cc;
+}
+
+h1 {
+  font-family: "Playfair Display";
+}
+
+p {
+  font-family: "Lato";
+}
+.heading-text {
+  font-weight: 500;
+  /*   text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -2.5px 2.5px 0 black,
+    1.5px 1.5px 0 black; */
+  text-shadow: 3px 3px 2px black;
+  font-family: "Playfair Display";
+}
+
+/* donate */
+.donate-jumbotron {
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+.donate-page {
+  background-image: url("https://t3.ftcdn.net/jpg/03/09/90/26/360_F_309902682_6Skuz4I4IjOBqHEdbQXam6tUbV5hVZLR.jpg");
+  background-position: bottom;
+  background-repeat: repeat;
+  /*   background-size: 100px 100px; */
+}
+
+/*parallax*/
+.parallax {
+  background-image: url("https://cdn.glitch.global/80112f5a-817f-4805-b925-f123e841c671/vegetables.avif?v=1721247759289");
+
+  /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.parallax-header {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 45%);
+}
+
+.parallax-header a {
+  font-size: 20px;
+  font-family: "Lato";
+}
+/* navbar */
+.navbar-custom {
+  background-color: #3b6064;
+  font-family: "Lato";
+}
+
+/* carousel */
+.carousel {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/* news */
+.news-scroll {
+  margin-left: 0.5px;
+  width: 100%;
+}
+.articles h1 {
+  margin-bottom: 2%;
+}
+
+.news-card a {
+  transition: transform 0.3s;
+}
+
+.news-card a:hover {
+  transform: scale(1.06);
+}
+
+/* why contribute */
+
+.why {
+  background-color: #87bba2;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.why h1 {
+  margin-bottom: 2%;
+}
+
+.why-img {
+  border: 3px white dashed;
+  border-radius: 25px;
+}
+
+/* resource */
+.resource-body {
+  background-color: white;
+}
+
+.resource-scroll-nav {
+  font-family: "Lato";
+  text-align: center;
+  font-size: 22px;
+  list-style-type: none;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.resource-scroll-nav li {
+  display: inline;
+}
+
+.resource-scroll-nav a {
+  color: #5f818a;
+}
+
+.resource-card {
+  transition: transform 0.3s;
+  opacity: 100%;
+}
+
+.resource-card a {
+  font-family: "Lato";
+}
+
+.resource-card:hover {
+  transform: scale(1.06);
+}
+
+.resource-hr {
+  width: 70%;
+  margin-top: 2%;
+}
+
+/* donate */
+.donate-box {
+  background-color: #92baa4;
+  margin: 2%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.donate-box h2 {
+  font-family: "Playfair Display";
+}
+
+.donate-card {
+  margin-bottom: 8px;
+}
+
+.card-text {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.donate-scroll {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.card-text-donate {
+  color: black;
+  text-decoration: none;
+}
+
+/* our mission */
+
+.mission {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.mission-stat {
+  font-weight: bold;
+}
+
+.home-info {
+  margin-top: 2%;
+}
+
+/* footer */
+footer {
+  margin-top: 3%;
+  color: white;
+  background-color: #3b6064;
+  position: relative;
+  bottom: 0;
+}
+.secondary-color-footer a {
+  text-decoration: none;
+  color: #cee3cc;
+  margin: -2px;
+  font-size: 15px;
+  transform: translate(2%, -7%);
+}
+.secondary-color-footer h2 {
+  color: #cee3cc;
+  transform: translate(0%, 7%);
+  margin-bottom: 25px;
+  font-family: "Inter";
+}
+
+.primary-footer {
+  margin: -0.25px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+}
+
+.btn {
+  background-color: #b8ccb6;
+  border-color: #cee3cc;
+  color: #000000;
+}
+.btn:hover {
+  border-color: #cee3cc;
+  background-color: #cee3cc;
+  color: #3b6064;
+}
+.btn-footer {
+  background-color: #cee3cc;
+  height: 40px;
+  width: 40px;
+}
+.btn-footer:hover {
+  box-shadow: 0px 0px 3px 3px #b8ccb6;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.card {
+  background-color: white;
+  color: #3b6064;
+  border: 0.5px #3b6064 solid;
+}
+/* about us*/
+
+.about-photo {
+  border: 3px solid white;
+}
+
+.about-text-box {
+  background-color: white;
+  padding-top: 10px;
+  box-shadow: 15px 15px #92baa4;
+}
+
+.about-text-box h3 {
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 18px;
+}
+
+/*fonts*/
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.lato-regular {
+  font-family: "Lato", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* parameters */
+
+@media screen and (max-width: 600px) {
+  .parallax-header {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 45%);
+  }
+
+  .about-img {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .about-text-box {
+    box-shadow: 0px 15px #92baa4;
+  }
+}
